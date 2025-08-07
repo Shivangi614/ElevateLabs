@@ -6,7 +6,9 @@ body{
     display: flex;
     justify-content: center;
     padding: 20px;
-    
+    background-image: url('BackGround_img.webp');
+    background-size: cover;
+
 }
 
 .container header{
@@ -17,7 +19,6 @@ body{
 .input-values{
     display: flex;
     justify-content: center;
-    /* padding: 20px; */
     margin-top: 20px;
     gap:20px;
     width: 100%;
@@ -29,6 +30,9 @@ body{
     width:100%;
     text-align: center;
     font-size: 20px;
+    background-color:lightcyan;
+    color: white;
+
     
 }
 .input-values button{
@@ -49,6 +53,7 @@ body{
     font-size: 15px;
     text-align: center;
     border-radius: 10px;
+
 }
 ul{
     list-style: none;
@@ -64,6 +69,8 @@ li{
     align-items: center;
     font-size: 20px;
     margin: 10px;
+    background-color: aqua;
+    color: black;
 }
 li:hover{
     transform: scale(1.1);
@@ -85,4 +92,36 @@ li:hover{
 
 .rmv-btn:hover{
     transform: scale(1.05);
+}
+
+@media (max-width:480px){
+.container header{
+  
+    font-size: 25px;
+}
+
+.input-values input{
+    font-size: 15px;
+}
+.input-values button{
+   
+    width: 50%;
+}
+.input-values button:hover{
+    transform: scale(1.1);
+}
+
+ul{
+
+    padding: 5px;
+}
+li{
+    width: 90%;
+    font-size: 15px;
+}
+
+.rmv-btn{
+    width: 20%;
+}
+
 }

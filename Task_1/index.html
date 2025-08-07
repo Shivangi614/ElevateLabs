@@ -2,37 +2,86 @@
 <html>
 
 <head>
-    <title> Task 1 </title>
-    <style href="style.css"></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task 1  </title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <div classname="hero-section">
-        <div classname="hero-nav">
-            <a href="#hero"> Home </a>
-            <a> About Me </a>
-            <a> Contact Me </a>
-        </div>
 
-        <div classname="hero-text" id="hero">
+    <div class="hero-nav">
+        <a href="#hero"> Home </a>
+        <a href="#about"> About Me </a>
+        <a href="#connect"> Connect With Me </a>
+    </div>
+    <div class="hero-section" id="hero">
+
+        <div class="hero-text">
             <h1>
-                Hi, <br /> I am <span className="highlight-name">Shivangi Jain</span>,
+                Hi, <br /> I am <span class="highlight-name">Shivangi Jain</span>,
                 <br /> Full Stack Developer
             </h1>
             <p>
-            I love crafting seamless, high-performance web applications.<br/>
-            Let's build something amazing together!
+                I love crafting seamless, high-performance web applications.<br />
+                Let's build something amazing together!
             </p>
-            <button onclick="window.open('Shivangi Resume.pdf.pdf')">Get Resume </button>
+            <button onclick="window.open('Resume.webp')">Get Resume </button>
 
         </div>
 
-        <div classname="hero-img">
-            <img src="profile-img.jpg" />
+        <div class="hero-img">
+            <img src="Demo.jpeg" />
         </div>
 
     </div>
+    <div class="about-section" id="about">
+        <div class="about-text">
+            <h2>About Me !!</h2>
+            <p>
+                Hello! I’m Shivangi Jain, a passionate and results-driven Full Stack Developer with a strong interest in
+                crafting dynamic, scalable, and user-friendly web applications. With a solid foundation in both
+                front-end and back-end technologies, I enjoy turning complex problems into intuitive digital solutions.
+                My expertise lies in working with technologies like React.js, Node.js, MongoDB, and Express.js, and I’m
+                constantly expanding my toolkit to stay current with evolving web standards.
+                <br>
+                I thrive in collaborative environments and take pride in writing clean, efficient code that not only
+                works but is maintainable and scalable. Beyond development, I’m deeply invested in UI/UX principles and
+                believe that great design is just as important as powerful functionality. Whether it’s developing a
+                full-stack application from scratch, integrating APIs, or optimizing performance, I love every part of
+                the development process. When I’m not coding, you’ll find me exploring new tech trends, working on side
+                projects, or contributing to open source. Let's build something impactful together!
+            </p>
+        </div>
+        <div class="about-skill">
+            <h3>My Skills </h3>
+            <div class="skill-grid">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React JS</div>
+                <div class="skill">Node JS</div>
+                <div class="skill">Mongo DB</div>
+                <div class="skill">Python</div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-section" id="connect">
+            <h2>SHIVANGI JAIN</h2>
+            <p>Full Stack Developer | Passionate about building scalable and efficient web applications.</p>
+            
+            <div class="footer-links">
+                
+                <a href="https://www.linkedin.com">Linked In</a>
+                <a href="mailto:xyz@gmail.com">E-Mail</a>
+                <a href="https://www.github.com">Git Hub</a>
+                <a href="tel:+91-1111111111">Call Now</a>
+            </div>
+            <hr>
+            <p>&copy; 2025 Shivangi Jain . All rights Reserved</p>
+        </div>
+    </div>
+
 </body>
 
 </html>
