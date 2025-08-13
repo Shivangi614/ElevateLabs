@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('login.avif');
+    background-size: cover;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+label {
+    color: wheat;
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: lightsteelblue;
+
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: darkblue;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.error-msg {
+    color: red;
+    font-size: 18px;
+    overflow-wrap: break-word;
+}
+
+
+
+
